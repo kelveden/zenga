@@ -1,0 +1,30 @@
+{
+  "name": "zenga",
+  "version": "0.0.1",
+  "description": "Absurdly crude CLI for AgileZen",
+  "main": "./lib/zenga.js",
+  "bin": "./bin/zenga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kelveden/zenga"
+  },
+  "keywords": [],
+  "author": "Alistair Dutton <kelveden@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/kelveden/zenga/issues"
+  },
+  "dependencies": {
+    "colors": "0.x",
+    "lodash": "2.x",
+    "node-rest-client": "1.x",
+    "optimist": "0.x"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "0.x",
+    "grunt-complexity": "^0.2.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
