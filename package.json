@@ -15,16 +15,19 @@
     "url": "https://github.com/kelveden/zenga/issues"
   },
   "dependencies": {
+    "cli-table": "0.x",
     "colors": "0.x",
+    "initials": "0.x",
     "lodash": "2.x",
     "node-rest-client": "1.x",
-    "optimist": "0.x"
+    "optimist": "0.x",
+    "when": "3.x"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": "0.x",
     "grunt-cli": "0.x",
-    "grunt-complexity": "^0.2.0",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-complexity": "0.x",
+    "grunt-contrib-jshint": "0.x",
+    "grunt-contrib-watch": "0.x"
   }
 }
